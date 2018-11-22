@@ -54,8 +54,6 @@ ReactDOM.render(
     <h3 style={{ margin: '16px 0' }}>Large Size</h3>
     <List
       size="large"
-      header={<div>Header</div>}
-      footer={<div>Footer</div>}
       bordered
       dataSource={data}
       renderItem={item => (<List.Item>{item}</List.Item>)}
